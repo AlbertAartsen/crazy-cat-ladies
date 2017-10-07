@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  # resources :cats
+  resources :cats
     root "crazycatladies#index"
   #
-  # resources :crazycatladies
-    get "crazycatladies" => "crazycatladies#index"
+  resources :crazycatladies
+    
 end

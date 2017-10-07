@@ -1,5 +1,5 @@
 <h1>CrazyCatLadies</h1>
 
   <% @crazy_cat_lady.each do |crazycatlady| %>
-    <p><%= link_to crazycatlady.name %></p>
+    <p><%= link_to crazycatlady.name, crazycatlady_path(crazycatlady.id) %></p>
 <% end %>

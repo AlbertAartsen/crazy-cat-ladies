@@ -5,11 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-lady1 = CrazyCatLady.create!({name: "Christa", age: 52, image_url: "", smell: "smelly"})
-lady2 = CrazyCatLady.create!({name: "Rohana", age: 33, image_url: "", smell: "smelly"})
-lady3 = CrazyCatLady.create!({name: "Debby", age: 89, image_url: "", smell: "smelly"})
-lady4 = CrazyCatLady.create!({name: "Shenaynay", age: 64, image_url: "", smell: "smelly"})
-lady5 = CrazyCatLady.create!({name: "Agatha", age: 65, image_url: "", smell: "smelly"})
+lady1 = CrazyCatLady.create!({name: "Christa", age: 52, image_url: "https://s.yimg.com/uu/api/res/1.2/k.pHzotBSbzyzTC5jaVqXg--~B/aD03MjA7dz0xMjgwO3NtPTE7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/cd/resizer/2.0/FIT_TO_WIDTH-w1280/ae9e83036676df20e894872123f39e98b58f9d9c.jpg", smell: "smelly"})
+lady2 = CrazyCatLady.create!({name: "Rohana", age: 33, image_url: "http://www.catster.com/wp-content/uploads/2015/06/Dorian-Crazy-Cat-Lady_600_0.jpg", smell: "smelly"})
+lady3 = CrazyCatLady.create!({name: "Debby", age: 89, image_url: "https://i.pinimg.com/736x/c1/f0/20/c1f020a2ea5163f0641a6632476f2bdf--missing-cat-poster-crazy-cat-lady.jpg", smell: "smelly"})
+lady4 = CrazyCatLady.create!({name: "Shenaynay", age: 64, image_url: "https://icons.wxug.com/data/wximagenew/b/BriarCraft/236-800.jpg", smell: "smelly"})
+lady5 = CrazyCatLady.create!({name: "Agatha", age: 65, image_url: "https://i.pinimg.com/736x/5a/39/8a/5a398adf668b6015a3961918845144bf--crazy-cat-lady-crazy-cats.jpg", smell: "smelly"})
 
 cat1 = Cat.create!({name:"Rob", age: 3, image_url: "https://s-media-cache-ak0.pinimg.com/736x/73/2a/f4/732af449ad189698076ac4da9102b9b9.jpg", breed: "blue_english"})
 cat2 = Cat.create!({name:"Cor", age: 16, image_url: "http://www.freakingnews.com/pictures/83000/Upside-Down-Cat--83458.jpg", breed: "blue_english"})

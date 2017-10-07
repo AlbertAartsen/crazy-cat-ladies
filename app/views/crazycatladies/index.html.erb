@@ -1,5 +1,31 @@
-<h1>CrazyCatLadies</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>CrazyCatLadies</h1>
+  <nav>
+      <ul>
+        <li>home</li>
+        <li>ladies</li>
+        <li>new</li>
+      </ul>
+    </nav>
 
-  <% @crazy_cat_lady.each do |crazycatlady| %>
-    <p><%= link_to crazycatlady.name %></p>
-<% end %>
+<div class="lady">
+      <li class="lady">
+        <% @crazy_cat_lady.each do |crazycatlady| %>
+        <%= image_tag crazycatlady.image_url %>
+      </li>
+      <li class="lady">
+    <%= link_to crazycatlady.name, crazycatlady_path(crazycatlady.id) %>
+  </li>
+    <% end %>
+</div>
+
+</body>
+</html>
